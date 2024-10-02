@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #fff;
+}
+
+.logo h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 3rem;
+}
+
+.text-container {
+    max-width: 50%;
+    text-align: left;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #333;
+    margin-left: 146px;
+    margin-top: 56%;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 1rem;
+    margin-top: 60%
+}
+
+.arrow {
+    font-size: 2rem;
+    color: #777;
+    margin-top: 1rem;
+}
+
+s{
+    margin-top: 155%;
+}
+
+m{
+    margin-top: 98%;
+}
+
+
+
+.login-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.access-text {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    margin-right: 1rem;
+}
+
+.social-icons img {
+    width: 45px;
+    margin-top: 190%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.dog-main {
+    width: 350px;
+    position: relative;
+    z-index: 2;
+    margin-right: 9899%;
+    margin-top: 130px;
+}
+
+.dog-side {
+    width: 150px;
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    z-index: 1;
+    margin-top: 130px
+}
