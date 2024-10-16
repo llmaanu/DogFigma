@@ -7,9 +7,13 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-header {
+.cabeçalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +22,8 @@ header {
 }
 
 .logo h1 {
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #333;
 }
 
@@ -27,11 +31,12 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 nav ul li a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #333;
 }
 
@@ -53,83 +58,93 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 17rem;
     font-weight: bold;
     color: #333;
-    margin-left: 146px;
-    margin-top: 56%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 104px;
 }
 
-p {
-    font-size: 1.2rem;
-    color: #777;
-    margin-top: 1rem;
-    margin-top: 60%
-}
-
-.arrow {
+p.slogan {
     font-size: 2rem;
     color: #777;
-    margin-top: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: 7px;
+    margin-left: 104px;
+    margin-top: 88px;
 }
 
-s{
-    margin-top: 155%;
+.seta {
+    font-size: 4rem;
+    color: #777;
+    margin-left: 784px;
+    margin-top: 10px;
 }
 
-m{
-    margin-top: 98%;
-}
-
-
-
-.login-btn {
+.login {
     background-color: #ff4c4c;
     color: white;
     border: none;
     padding: 0.8rem 2rem;
-    border-radius: 5px;
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 20px;
     font-size: 1rem;
 }
 
-.access-text {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
+.texto {
+    margin-bottom: 10px;
+    font-size: 1rem;
     color: #999;
+    text-align: left;
+}
+
+.dog-container {
+    width: 510px;
+    height: 510px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bola {
+    width: 170%;  /* Ajusta o tamanho do círculo para 100% do container */
+    height: auto;
+    z-index: 1;
+    margin-right: 108%;  /* Remove a margem extra */
+}
+
+.dog {
+    position: absolute;
+    width: 120%;  /* Ajuste para centralizar o cachorro dentro do círculo */
+    z-index: 2;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -28%;
+}
+
+.rodape {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-icons {
-    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
 }
 
 .social-icons a {
-    margin-right: 1rem;
+    margin: 0 10px;
 }
 
 .social-icons img {
-    width: 45px;
-    margin-top: 190%;
-}
-
-.image-container {
-    position: relative;
-}
-
-.dog-main {
-    width: 350px;
-    position: relative;
-    z-index: 2;
-    margin-right: 9899%;
-    margin-top: 130px;
-}
-
-.dog-side {
-    width: 150px;
-    position: absolute;
-    right: -50px;
-    bottom: 0;
-    z-index: 1;
-    margin-top: 130px
+    width: 40px;
+    height: 40px;
 }
